@@ -61,8 +61,6 @@ if(opt$color=="default") {
   palette<-unlist(strsplit(opt$color, split=","))
 }
 
-print(palette)
-
 # Assign the first argument to prefix
 prefix=opt$prefix
 
